@@ -25,6 +25,7 @@
   position: relative;
   background-clip: padding-box;
   border: 1px solid transparent;
+  z-index: 10;
 }
 
 .gradient-border::before {
@@ -130,4 +131,15 @@
   .moov-icons {
     display: none;
   }
+}
+
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dark .hero-bg {
+  background-image: none !important;
 }

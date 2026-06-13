@@ -1,14 +1,15 @@
 import React from "react";
 import assets from "../assets/assets";
 import { motion } from "motion/react";
+import heroBg from "../assets/hero-default.webp";
 
 const Hero = () => {
   return (
     <div
       id="hero"
-      className="flex flex-col items-center gap-6 pt-14 pb-20 px-4 sm:px-12 lg:px-24 xl:px-40
+      className="hero-bg flex flex-col items-center gap-6 pt-14 pb-20 px-4 sm:px-12 lg:px-24 xl:px-40
       text-center dark:text-white w-full overflow-hidden text-gray-700"
-    >
+    style={{ backgroundImage: `url(${heroBg})` }}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +105,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className="relative"
       >
-        <img className="w-full max-w-6xl" src={assets.hero_img} alt="Hero" />
+        {/* <img className="w-full max-w-6xl" src={assets.hero_img} alt="Hero" /> */}
         <img
           src={assets.bgImage1}
           alt=""
