@@ -15,10 +15,23 @@
 }
 
 .size-8 {
-  width: 44px;
-  height: 44px;
-  padding: 11px;
+  width: 38px;
+  height: 38px;
+  padding: 9px;
   cursor: pointer;
+}
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding-top: 150px;
+}
+
+.dark .hero-bg {
+  background-image: none !important;
 }
 
 .gradient-border {
@@ -58,17 +71,17 @@
 }
 
 .custom-btn:hover {
-  background: #b40a65;
+  background: #e870b0;
 }
 
 .custom-btn-2 {
-  background: #10cced;
+  background: #11caeb;
   height: 40px;
   cursor: pointer;
   line-height: 1.5;
 }
 .custom-btn-2:hover {
-  background: #7fdced;
+  background: #80dced;
 }
 
 .floating-1 {
@@ -133,13 +146,25 @@
   }
 }
 
+@media (max-width: 576px) {
+  .gradient-border::before {
+    margin: -11.1px -2.1px;
+  }
 
-.hero-bg {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  .hero-bg {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-top: 110px;
+  }
 
-.dark .hero-bg {
-  background-image: none !important;
+  .hero-bg h1 {
+    font-size: 30px !important;
+  }
+
+  .hero-bg p {
+    font-size: 14px !important;
+  }
 }

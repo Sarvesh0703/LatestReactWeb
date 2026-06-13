@@ -1,7 +1,7 @@
 import React from "react";
 import assets from "../assets/assets";
 import { motion } from "motion/react";
-import heroBg from "../assets/hero-default.webp";
+import heroBg from "../assets/banner-9.jpg";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
         {/* <img className='w-20' src={assets.group_profile} alt="Hero" />
         <p className='text-lg text-xs font-medium'>Welcome to our website!</p> */}
         <div className="rounded-full mb-3 h-10 gradient-border inline-flex items-center">
-          <div className="bg-white dark:bg-[#171f2e] py-2 text-sm items-center gap-2 px-5 inline-flex dark:text-white rounded-full z-10 relative">
+          <div className="bg-black text-white dark:bg-[#171f2e] py-2 text-sm items-center gap-2 px-5 inline-flex dark:text-white rounded-full z-10 relative">
             <svg
               width="22"
               height="22"
@@ -76,15 +76,15 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.8 }}
         viewport={{ once: true }}
-        className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium
-      xl:leading-[95px] max-w-5xl"
-      >
-        Turning imagination into
-        <span className="bg-gradient-to-r from-[#c33aac] to-[#4d8cea] bg-clip-text text-transparent">
+        className="text-4xl sm:text-5xl md:text-6xl xl:text-[64px]
+      xl:leading-[95px] max-w-5xl text-white dark:text-white/90"
+      style={{ fontWeight: 700, paddingBottom: '15px' }}>
+        Turning concepts into engaging
+        <span className="bg-gradient-to-r from-[#c33aac] to-[#4d8cea] bg-clip-text text-transparent" style={{ fontWeight: 700 }}>
           {" "}
           digital
         </span>{" "}
-        impact.
+        experiences.
       </motion.h1>
 
       <motion.p
@@ -92,7 +92,7 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 1 }}
         viewport={{ once: true }}
-        className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl"
+        className="text-lg text-white dark:text-white/90 max-w-2xl"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. incidunt in
         tenetur corporis hic eaque dolor, autem labore cum vero amet?
@@ -116,9 +116,9 @@ const Hero = () => {
       
       <div className="lg:block moov-icons">
         <img src={assets.shap_1} class="absolute top-30 left-16 floating-1" alt=""></img>
-        <img src={assets.shap_2} class="absolute top-[320px] right-[220px] floating-2" alt=""></img>
+        <img src={assets.shap_2} class="absolute top-[320px] right-[170px] floating-2" alt=""></img>
         <img src={assets.shap_3} class="absolute right-16 top-[160px] floating-3" alt=""></img>
-        <img src={assets.shap_4} class="absolute left-[145px] top-[320px] floating-4" alt=""></img>
+        <img src={assets.shap_4} class="absolute left-[130px] top-[320px] floating-4" alt=""></img>
       </div>
     </div>
   );
