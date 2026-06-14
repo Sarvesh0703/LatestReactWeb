@@ -11,14 +11,16 @@ Error generating stack: `+e.message+`
         px-4 sm:px-12 lg:px-24 xl:px-40
         fixed w-full top-0 z-50
         transition-all duration-500 ease-in-out
-        ${i?`bg-[#070625] shadow-lg py-1 sm:py-2`:`bg-transparent py-2`}
+        fixed top-0 left-0 w-full z-50
+        flex justify-between items-center
+        px-4 sm:px-12 lg:px-24 xl:px-40
+        ${i?`sticky-navbar`:`bg-transparent py-4`}
       `,children:[(0,O.jsx)(`a`,{href:`#`,children:(0,O.jsx)(`img`,{src:ye,alt:`Logo`,className:`w-32 sm:w-44`})}),(0,O.jsxs)(`div`,{className:`${n?`max-sm:w-60 max-sm:pl-10`:`max-sm:w-0 overflow-hidden`} 
         max-sm:fixed top-0 bottom-0 right-0
         max-sm:min-h-screen max-sm:h-full
         max-sm:flex-col max-sm:bg-[#070625]
         max-sm:pt-20 flex sm:items-center
-        transition-all`,children:[(0,O.jsx)(`img`,{src:D.close_icon,alt:``,onClick:()=>r(!1),className:`w-5 absolute right-4 top-4 sm:hidden`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Home`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#our-teams`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Our Teams`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#services`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Services`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#our-work`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Our Work`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#contact-us`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Contact Us`})]}),(0,O.jsxs)(`div`,{className:`flex items-center gap-2 sm:gap-4`,children:[(0,O.jsx)(Me,{theme:e,setTheme:t}),(0,O.jsx)(`img`,{src:e===`dark`?D.menu_icon_dark:D.menu_icon,alt:``,onClick:()=>r(!0),className:`w-8 sm:hidden`}),(0,O.jsxs)(`a`,{href:`#contact-us`,className:`max-sm:hidden flex items-center gap-2\r
-          bg-blue-600 hover:bg-blue-700\r
+        transition-all`,children:[(0,O.jsx)(`img`,{src:D.close_icon,alt:``,onClick:()=>r(!1),className:`w-5 absolute right-4 top-4 sm:hidden`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Home`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#our-teams`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Our Teams`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#services`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Services`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#our-work`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Our Work`}),(0,O.jsx)(`a`,{onClick:()=>r(!1),href:`#contact-us`,className:`text-white text-sm px-4 py-4 hover:text-blue-400`,children:`Contact Us`})]}),(0,O.jsxs)(`div`,{className:`flex items-center gap-2 sm:gap-4`,children:[(0,O.jsx)(Me,{theme:e,setTheme:t}),(0,O.jsx)(`img`,{src:e===`dark`?D.menu_icon_dark:D.menu_icon,alt:``,onClick:()=>r(!0),className:`w-8 sm:hidden`}),(0,O.jsxs)(`a`,{href:`#contact-us`,className:`custom-btn max-sm:hidden flex items-center gap-2\r
           text-white px-6 py-2 rounded-full\r
           transition-all duration-300`,children:[`Contact Us`,(0,O.jsx)(`img`,{src:D.arrow_icon,width:14,alt:``})]})]})]})},Xu=`/LatestReactWeb/assets/banner-9-DtFcQgZq.jpg`,Zu=()=>(0,O.jsxs)(`div`,{id:`hero`,className:`hero-bg flex flex-col items-center gap-6 pt-14 pb-20 px-4 sm:px-12 lg:px-24 xl:px-40\r
       text-center dark:text-white w-full overflow-hidden text-gray-700`,style:{backgroundImage:`url(${Xu})`},children:[(0,O.jsx)(Ju.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},transition:{duration:.5,delay:.7},viewport:{once:!0},className:`inline-flex items-center gap-2 p-1.5\r
