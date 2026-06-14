@@ -43,7 +43,7 @@ const ContactUs = () => {
             rounded-lg border border-gray-300 dark:border-gray-600' placeholder="Enter your message" required></textarea>
         </div>
 
-        <button type="submit" className='custom-btn-2 w-max flex gap-2 bg-primary text-white
+        <button type="submit" className='custom-btn-2 w-max flex items-center gap-2 bg-primary text-white
           text-sm px-6 py-2 rounded-full cursor-pointer transition-all'>
           Send Message <img src={assets.arrow_icon} alt="" className='w-4' />
         </button>

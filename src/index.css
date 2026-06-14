@@ -26,7 +26,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding-top: 150px;
 }
 
@@ -65,7 +65,7 @@
 .custom-btn {
   background: #d71b7f;
   height: 40px;
-  padding: 12px 35px;
+  padding: 12px 30px;
   cursor: pointer;
   line-height: 1.3;
 }
@@ -78,7 +78,8 @@
   background: #11caeb;
   height: 40px;
   cursor: pointer;
-  line-height: 1.5;
+  padding: 12px 30px;
+  line-height: 1.2;
 }
 .custom-btn-2:hover {
   background: #80dced;
@@ -158,6 +159,7 @@
     width: 100%;
     height: auto;
     padding-top: 110px;
+    padding-bottom: 40px;
   }
 
   .hero-bg h1 {
@@ -174,7 +176,6 @@
     padding: 7px;
   }
 }
-
 
 .sticky-navbar {
   animation: goDown 0.7s ease-in-out forwards;
