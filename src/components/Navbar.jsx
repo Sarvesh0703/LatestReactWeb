@@ -30,11 +30,10 @@ const Navbar = ({ theme, setTheme }) => {
         px-4 sm:px-12 lg:px-24 xl:px-40
         fixed w-full top-0 z-50
         transition-all duration-500 ease-in-out
-        ${
-          scrolled
-            ? "bg-[#070625] shadow-lg py-1 sm:py-2"
-            : "bg-transparent py-2"
-        }
+        fixed top-0 left-0 w-full z-50
+        flex justify-between items-center
+        px-4 sm:px-12 lg:px-24 xl:px-40
+        ${scrolled ? "sticky-navbar" : "bg-transparent py-4"}
       `}
     >
       <a href="#">
@@ -121,8 +120,7 @@ const Navbar = ({ theme, setTheme }) => {
 
         <a
           href="#contact-us"
-          className="max-sm:hidden flex items-center gap-2
-          bg-blue-600 hover:bg-blue-700
+          className="custom-btn max-sm:hidden flex items-center gap-2
           text-white px-6 py-2 rounded-full
           transition-all duration-300"
         >

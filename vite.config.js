@@ -8,5 +8,22 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/LatestReactWeb/'
+  base: '/LatestReactWeb/',
+  theme: {
+    extend: {
+      keyframes: {
+        navbarDown: {
+          "0%": {
+            transform: "translateY(-70px)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        navbarDown: "navbarDown 0.7s ease-in-out forwards",
+      },
+    },
+  },
 })

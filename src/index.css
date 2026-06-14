@@ -167,4 +167,27 @@
   .hero-bg p {
     font-size: 14px !important;
   }
+
+  .size-8 {
+    width: 34px;
+    height: 34px;
+    padding: 7px;
+  }
+}
+
+
+.sticky-navbar {
+  animation: goDown 0.7s ease-in-out forwards;
+  background: #070625;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  height: 70px;
+}
+
+@keyframes goDown {
+  from {
+    transform: translateY(-70px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
