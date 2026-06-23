@@ -42,7 +42,7 @@ const Footer = ({theme}) => {
             </p>
             <div className='flex gap-2 text-sm'>
                 <input type="email" placeholder="Enter your email"
-                className='w-full p-3 text-sm outline-none rounded-full dark:text-gray-200 bg-transparent
+                className='w-full p-3 pl-3 text-sm outline-none rounded-full dark:text-gray-200 bg-transparent
                 border border-gray-300 dark:border-gray-500' />
                 <button className='custom-btn-2 text-white rounded-full px-6'>Subscribe</button>
             </div>
@@ -58,10 +58,10 @@ const Footer = ({theme}) => {
       className='flex justify-center sm:justify-between pb-6 text-sm text-gray-500 gap-4 flex-wrap'>
         <p className='text-center'>Copyright 2026 © Your Company. All rights reserved.</p>
         <div className='flex gap-4 items-center justify-between cursor-pointer'>
-            <img src={assets.facebook_icon} alt="" />
-            <img src={assets.twitter_icon} alt="" />
-            <img src={assets.instagram_icon} alt="" />
-            <img src={assets.linkedin_icon} alt="" />
+            <img src={assets.facebook_icon} alt="" style={{ width: '20px' }} className='hover:scale-110 transition duration-300 cursor-pointer' />
+            <img src={assets.twitter_icon} alt="" style={{ width: '19px' }} className='hover:scale-110 transition duration-300 cursor-pointer' />
+            <img src={assets.instagram_icon} alt="" style={{ width: '19px' }} className='hover:scale-110 transition duration-300 cursor-pointer' />
+            <img src={assets.linkedin_icon} alt="" style={{ width: '19px' }} className='hover:scale-110 transition duration-300 cursor-pointer' />
         </div>
       </motion.div>
     </motion.div>

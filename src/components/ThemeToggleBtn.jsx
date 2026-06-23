@@ -21,9 +21,9 @@ const ThemeToggleBtn = ({theme, setTheme}) => {
     <>
     <button>
         {theme === 'dark' ? (
-            <img onClick={()=> setTheme('light')} src={assets.sun_icon} className='inline-flex items-center dark:hover:bg-white/5 dark:hover:text-white/90 hover:bg-gray-100 hover:text-gray-800 text-gray-500 dark:text-gray-400 justify-center border border-gray-200 dark:border-gray-700 rounded-full size-8' alt="" />
+            <img onClick={()=> setTheme('light')} src={assets.sun_icon} className='toggle_icons inline-flex items-center dark:hover:bg-white/5 dark:hover:text-white/90 hover:bg-gray-100 hover:text-gray-800 text-gray-500 dark:text-gray-400 justify-center border border-gray-700 dark:border-gray-700 rounded-full size-8' alt="" />
         ) : (
-            <img onClick={()=> setTheme('dark')} src={assets.moon_icon} className='inline-flex items-center dark:hover:bg-white/5 dark:hover:text-white/90 hover:bg-gray-100 hover:text-gray-800 text-gray-500 dark:text-gray-400 justify-center border border-gray-200 dark:border-gray-700 rounded-full size-8' alt="" />
+            <img onClick={()=> setTheme('dark')} src={assets.moon_icon} className='toggle_icons inline-flex items-center dark:hover:bg-white/5 dark:hover:text-white/90 hover:bg-gray-100 hover:text-gray-800 text-gray-500 dark:text-gray-400 justify-center border border-gray-700 dark:border-gray-700 rounded-full size-8' alt="" />
         )}
     </button>
     </>

@@ -34,6 +34,10 @@
   background-image: none !important;
 }
 
+.toggle_icons:hover{
+  background-color: rgb(74 74 74) !important;
+}
+
 .gradient-border {
   position: relative;
   background-clip: padding-box;
