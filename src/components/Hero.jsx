@@ -21,7 +21,7 @@ const Hero = () => {
         {/* <img className='w-20' src={assets.group_profile} alt="Hero" />
         <p className='text-lg text-xs font-medium'>Welcome to our website!</p> */}
         <div className="rounded-full mb-3 h-10 gradient-border inline-flex items-center">
-          <div className="bg-black text-white dark:bg-[#171f2e] py-2 text-sm items-center gap-2 px-5 inline-flex dark:text-white rounded-full z-10 relative">
+          <div className="bg-black text-white dark:bg-black py-2 text-sm items-center gap-2 px-5 inline-flex dark:text-white rounded-full z-10 relative">
             <svg
               width="22"
               height="22"

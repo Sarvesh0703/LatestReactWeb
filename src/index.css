@@ -30,12 +30,12 @@
   padding-top: 150px;
 }
 
-/* .dark .hero-bg {
-  background-image: none !important;
-} */
+.dark .hero-bg {
+  background-image: black !important;
+}
 
 .toggle_icons:hover {
-  background-color: rgb(74 74 74) !important;
+  background-color: rgb(10 9 52) !important;
 }
 
 .gradient-border {
