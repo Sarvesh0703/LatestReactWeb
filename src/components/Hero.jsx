@@ -115,10 +115,10 @@ const Hero = () => {
       </motion.div>
       
       <div className="lg:block moov-icons">
-        <img src={assets.shap_1} class="absolute top-30 left-16 floating-1" alt=""></img>
-        <img src={assets.shap_2} class="absolute top-[320px] right-[170px] floating-2" alt=""></img>
-        <img src={assets.shap_3} class="absolute right-16 top-[160px] floating-3" alt=""></img>
-        <img src={assets.shap_4} class="absolute left-[130px] top-[320px] floating-4" alt=""></img>
+        <img src={assets.shap_1} class="absolute top-45 left-16 floating-1" alt=""></img>
+        <img src={assets.shap_2} class="absolute top-[350px] right-[170px] floating-2" alt=""></img>
+        <img src={assets.shap_3} class="absolute right-16 top-[200px] floating-3" alt=""></img>
+        <img src={assets.shap_4} class="absolute left-[130px] top-[350px] floating-4" alt=""></img>
       </div>
     </div>
   );
